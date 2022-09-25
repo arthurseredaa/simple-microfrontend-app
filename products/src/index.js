@@ -6,5 +6,3 @@ const products = new Array(5).fill(undefined).reduce((prev, current) => {
 }, '');
 
 document.getElementById('products-list').innerHTML = products;
-
-console.log(products)
